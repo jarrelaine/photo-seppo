@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Photo Seppo – People Photorgaphy</title>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+
+  <!-- CSS Stylesheets -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="logo.png">
+
+  <!-- Font Awesome -->
+  <script src="https://use.fontawesome.com/72a15a0bd4.js"></script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+
+</head>
+
+
+
+<body>
+
+  <!-- NAVIGATION BAR -->
+  <section id="navigationbar">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#title">
+          <img src="logo.png" alt="Seppo-Logo" width="35" height="35">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item ms-auto">
+              <a class="nav-link" href="#übermich">Über mich</a>
+            </li>
+            <li class="nav-item ms-auto">
+              <a class="nav-link" href="#slideshow">Galerie</a>
+            </li>
+            <li class="nav-item ms-auto">
+              <a class="nav-link" href="#kontakt">Kontakt</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </section>
+
+  <!-- TITLE SECTION -->
+  <section id="title">
+    <div class="container-fluid">
+      <div class="bg-image-title">
+        <h1 class="big-heading">
+          PHOTO SEPPO
+        </h1>
+        <h2 class="small-heading">
+          PORTRAIT, MODE, KUNST, AKT
+        </h2>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ÜBER MICH -->
+  <section id="übermich">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 class="section-heading">Über mich</h1>
+          <p class="profil-text">Das Fotorgrafieren habe ich durch den Kauf einer Kamera auf einem Flohmarkt im Jahr 2018 für mich entdeckt. Schnell merkte ich, dass mein Interesse stieg und die Qualität meiner Bilder rasend zunahm.
+            6 Monate später kaufte ich eine neue, bessere Kamera, mit der ich meine ersten richtigen Shootings machte. Es dauerte weitere 18 Monate bis ich mich für Profi-Equipment entschied.
+            Mittlerweile habe ich ein eigenes kleines Fotostudio mit Hi-End Lichttechnik eingerichtet, in dem bereits fantastische Aufnahmen entstanden sind und das ganze auf der größten Flussinsel Europas, HH-Wilhelmsburg.
+          </p>
+        </div>
+        <div class="col-lg-6">
+          <img class="profil-picture img-fluid" src="content/IMG_9622-Kopie.jpg" alt="profil-picture">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CAROUSEL SECTION -->
+
+  <section id=slideshow>
+    <div class="container">
+      <h1 class="section-heading">Entspannte Shootings</h1>
+      <h3>in freundlicher Atmosphäre</h3>
+
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="content/one.jpg" class="d-block w-100" alt="Paar-img">
+          </div>
+          <div class="carousel-item">
+            <img src="content/two.jpg" class="d-block w-100" alt="Banane-img">
+          </div>
+          <div class="carousel-item">
+            <img src="content/three.jpg" class="d-block w-100" alt="Bäcker-img">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- GALLERY SECTION -->
+
+  <section id="gallery">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-lg-3 col-md-6">
+          <img class="img-button" src="content/portrait.jpg" alt="prtrait-img" width="240" height="240">
+          <h2 class="fw-normal">Portrait</h2>
+          <p></p>
+        </div><!-- /.col-lg-3 -->
+
+        <div class="col-lg-3 col-md-6">
+          <img class="img-button" src="content/mode.jpg" alt="prtrait-img" width="240" height="240">
+          <h2 class="fw-normal">Mode</h2>
+          <p></p>
+        </div><!-- /.col-lg-3 -->
+
+        <div class="col-lg-3 col-md-6">
+          <img class="img-button" src="content/kunst.jpg" alt="prtrait-img" width="240" height="240">
+          <h2 class="fw-normal">Kunst</h2>
+          <p></p>
+        </div><!-- /.col-lg-3 -->
+
+        <div class="col-lg-3 col-md-6">
+          <img class="img-button" src="content/akt.jpg" alt="prtrait-img" width="240" height="240">
+          <h2 class="fw-normal">Akt</h2>
+          <p></p>
+        </div><!-- /.col-lg-3 -->
+
+      </div>
+    </div>
+  </section>
+
+  <!-- KONTAKT -->
+
+  <section id="kontakt">
+    <div class="container-fluid">
+      <div class="bg-image-kontakt">
+        <h1 class="contact-heading">
+          BOOKING
+        </h1>
+        <h3 class="kontaktdaten">
+          Telefonnummer <br>
+          Mailadresse
+        </h3>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+
+  <footer id="footer">
+
+    <div class="container-fluid">
+      <i class="social-icon fb fa-brands fa-facebook fa-3x"></i>
+      <i class="social-icon insta fa-brands fa-instagram fa-3x"></i>
+      <i class="social-icon env fa-solid fa-envelope fa-3x"></i>
+      <p class="copyright">© Copyright 2022 Photo Seppo</p>
+    </div>
+
+  </footer>
+
+
+
+
+</body>
+
+</html>
